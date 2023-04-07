@@ -1,0 +1,46 @@
+[
+    {
+        "id": 1,
+        "author_name":"Patrick Roos" ,
+        "blog_title": "Which web frontend architecture fits best?",
+        "images":{
+            "blog_cover_image":"https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.15752-9/338765345_596359195843522_6203954162782855232_n.png?_nc_cat=101&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEXXiIaitzu_pGaSdMGv2izfISleChhiH18hKV4KGGIfZR_5VPds1a-z2Xwd3VcJoNsZxC-R82yPj4wOVjvZ2Ii&_nc_ohc=EfpxJC86UMkAX-s89vv&_nc_ht=scontent.fcgp27-1.fna&oh=03_AdTjhKe_-RHOZP4ZbxFEEY00rmP1LKBp7zcJsDpYzkk7Mg&oe=644F89F1",
+             "author_image":"https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.15752-9/338666355_1930327244026816_5749795493221205102_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeHVUArNYm6tKP21_biSINQsXMmFqNqM1edcyYWo2ozV5yIuOYUu-klyYSPTmpOiGbVzPKp7lOkGVSTzpCfDfHkB&_nc_ohc=EMJwlv2f7EQAX-pSioF&_nc_ht=scontent.fcgp27-1.fna&oh=03_AdRr1aFo829CiqQjt47gjGWqfnImJTuP1zwBiXbezc_ofQ&oe=644F66D3"
+            },
+        "read_time":11,
+        "publish_date":"Dec 9, 2022"
+    },
+    {
+        "id": 2,
+        "author_name": "MITCHELL CLARK",
+        "blog_title": "Twitter takes its algorithm ‘open-source,’ as Elon Musk promised",
+        "images":{
+            "blog_cover_image":"https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.15752-9/338709566_1602861466846220_5455786892315536691_n.webp?stp=dst-webp&_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFa5N22roDZ5-ZRwSlISxLa3woa2l9W0qrfChraX1bSqregbb74-ztQJMzGs5gzY0788047znKFKmNt6CFJE8GZ&_nc_ohc=ypBn7STGJSoAX9L3vwm&_nc_ht=scontent.fcgp27-1.fna&oh=03_AdQHuM1tj9cZPzBHLJ0LX-SgmNEGI3ltx2RingO6Y9Gw3Q&oe=644F6FD6",
+             "author_image":"https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.15752-9/338904895_1477205822812145_3377268863495960224_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeEuZzBPJwC5PlvRqp0BqNipuP8_4b51kuC4_z_hvnWS4HQ0nbpGTczuqHR2zcUsxDiqOVysK6uRqbFrK2Cl3AUu&_nc_ohc=KF_MMQNxuLwAX9Km9Ig&_nc_ht=scontent.fcgp27-1.fna&oh=03_AdQ9xfjcC1iD9kTULle_3KyfjmlqlN0Qx_tQ1TSi7Vm_xg&oe=644F84D2"
+            },
+        "read_time": 6,
+        "publish_date":"Apr 1, 2023"
+    },
+    {
+        "id": 3,
+        "author_name": "Chris Weller ",
+        "blog_title":"6 books about freelancing that taught me how to be self-employed and land clients quickly" ,
+        "images":{
+            "blog_cover_image":"https://i.insider.com/641dfd68c60a3d00184eeb31?width=1000&format=jpeg&auto=webp",
+             "author_image":"https://i.insider.com/5f7e320e282c500018c793d6?width=300&format=jpeg&auto=webp"
+            },
+        "read_time":8,
+        "publish_date":"Mar 26, 2023"
+    },
+    {
+        "id": 4,
+        "author_name": "Aneesh Tickoo",
+        "blog_title": "A New AI Research Introduces Cluster-Branch-Train-Merge (CBTM): A Simple But Effective Method For Scaling Expert Language Models With Unsupervised Domain Discovery",
+        "images":{
+            "blog_cover_image":"https://scontent.fcgp27-1.fna.fbcdn.net/v/t1.15752-9/337804776_565294825667711_3533863032234888249_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeFh1Yp1PRg6i5PTyW3WNJGYJdv4O4mKQ7kl2_g7iYpDuWAwqBvJhIikFkn2opPSot9wHuOFNCSR2YeVrdjVtxJr&_nc_ohc=3IYUwxNQwhgAX_sQ0dj&_nc_ht=scontent.fcgp27-1.fna&oh=03_AdSUg39eZWGDgKeyvEiH9mIuioksahOUPmTCq4pDinatUA&oe=644F7991",
+             "author_image":"https://www.marktechpost.com/wp-content/uploads/2022/04/Aneesh_PP-Aneesh-Tickoo-96x96.jpeg"
+            },
+        "read_time":10,
+        "publish_date":"March 30, 2023"
+    }
+]

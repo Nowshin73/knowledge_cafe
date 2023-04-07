@@ -1,0 +1,49 @@
+.app-header{
+  margin: 50px auto;
+  max-width: 1200px;
+}
+.app-header>nav{
+  display: flex;
+  padding: 1rem 1rem;
+ justify-content: space-between;
+ align-items: center;
+}
+.links{
+  display: flex;
+ gap: 1rem;
+}
+.links>a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+main{
+  margin: 50px auto;
+  max-width: 1200px;
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+
+}
+.side-part{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+@media (max-width:800px) {
+  main{
+    flex-direction: column;
+    margin: 1rem 1rem;
+  }
+  .container{
+    flex: 1;
+  }
+  .side-part{
+    flex: 1;
+  }
+}

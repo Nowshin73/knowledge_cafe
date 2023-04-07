@@ -1,0 +1,21 @@
+.blog{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.blog-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+.blog-container>p{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #111111;
+    
+}
+.spend-time{
+font-weight: 700;
+font-size: 24px;
+color: #6047EC;
+}
