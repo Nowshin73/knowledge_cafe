@@ -4,10 +4,12 @@ import './App.css';
 import Blog from './components/blog/Blog';
 import Bookmark from './components/bookmark/Bookmark';
 import Content from './components/content/Content';
+import Spendtime from './components/spendtimes/Spendtime';
 
 function App() {
   const [blogs, setBlogs] = useState([]);
   const [bookmarks, setBookMarks] = useState([]);
+  const [readtimes, setReadTimes] = useState([]);
   
 
 
@@ -23,8 +25,8 @@ function App() {
     setBookMarks(newBlog);
   }
   const spendTime = (blog) => {
-    const newBlog = [...bookmarks, blog]
-    setBookMarks(newBlog);
+    const newBlog = [...readtimes, blog]
+    setReadTimes(newBlog);
   }
  
 
@@ -56,9 +58,8 @@ function App() {
           <Blog></Blog>
         </section>
         <section className='side-part'>
-        <Bookmark bookmarks={bookmarks}
-                 
-            ></Bookmark>
+          <Spendtime readtimes={readtimes}></Spendtime>
+        <Bookmark bookmarks={bookmarks}></Bookmark>
         </section>
       </main>
     </div>
