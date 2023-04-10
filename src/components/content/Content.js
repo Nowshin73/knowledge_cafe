@@ -3,7 +3,8 @@ import './content.css'
 import { BsBookmark } from 'react-icons/bs'
 const Content = (props) => {
   const  bookMarked = props.bookMarked;
- // const  spendTime = props.spendTime;
+  const spendTime = props.spendTime;
+ 
   return (
     <div className='content'>
       <div className="content-container">
@@ -21,7 +22,7 @@ const Content = (props) => {
             </div>
         </div>
         <h1 className='blog-title'>{props.title}</h1>
-        <button className="mark-read-btn" onClick={()=> bookMarked(props.read_time)}>Mark as read</button>
+        <button className="mark-read-btn" onClick={()=> spendTime(props.read_time)}>Mark as read</button>
       </div>
     </div>
   )
